@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 module.exports = ()=>{
 
-    mongoose.connect("mongodb://movie:Cxdata66100Cx@ds161939.mlab.com:61939/movie");
+    mongoose.connect("mongodb://movie:test1234@ds161939.mlab.com:61939/movie");
 
     mongoose.connection.on("open",()=>{
         console.log(" MongoDB : Bağlandı ")
