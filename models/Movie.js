@@ -5,7 +5,7 @@ const MovieSchema = new Schema({
     director_id:Schema.Types.ObjectId,
     title:{
         type:String,
-        required:true,
+        required:true, // Zorunlu ise true değilse fasle yap
 
     },
     category:String,
